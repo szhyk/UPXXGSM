@@ -1,0 +1,213 @@
+Dependencies for Project 'UPXXGSM', Target 'LPC1768': (DO NOT MODIFY !)
+F (.\Source\CMSIS\CM3\CoreSupport\core_cm3.c)(0x51908F98)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\core_cm3.o" --omf_browse ".\Out\core_cm3.crf" --depend ".\Out\core_cm3.d")
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (.\Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.c)(0x5190B10C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\system_lpc17xx.o" --omf_browse ".\Out\system_lpc17xx.crf" --depend ".\Out\system_lpc17xx.d")
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h)(0x51908F98)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h)(0x51908F98)
+F (.\Source\CMSIS\CM3\DeviceSupport\NXP\LPC17xx\startup\arm\startup_LPC17xx.s)(0x5BBB5878)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx --list ".\List\startup_LPC17xx.lst" --xref -o ".\Out\startup_LPC17xx.o" --depend ".\Out\startup_LPC17xx.d")
+F (.\Source\App\GPRS.c)(0x5BDA7042)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\gprs.o" --omf_browse ".\Out\gprs.crf" --depend ".\Out\gprs.d")
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (Source\App\gprs.h)(0x5BD02F75)
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\gsm.h)(0x5BDA51FF)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\work.h)(0x5BD83FD1)
+F (.\Source\App\gsm.c)(0x5BDC529B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\gsm.o" --omf_browse ".\Out\gsm.crf" --depend ".\Out\gsm.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (Source\App\gsm.h)(0x5BDA51FF)
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\gprs.h)(0x5BD02F75)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\ucs2.h)(0x59B5F6FA)
+I (Source\App\gsmcomm.h)(0x5A0D4F9A)
+I (.\Source\Comm\wxcw.h)(0x5BDBEEDA)
+I (.\Source\Comm\modbusm.h)(0x5BC45B44)
+I (Source\App\timer.h)(0x5BCDC980)
+I (Source\App\work.h)(0x5BD83FD1)
+F (.\Source\App\IIC.c)(0x5BD02CB5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\iic.o" --omf_browse ".\Out\iic.crf" --depend ".\Out\iic.d")
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\iic.h)(0x5BD02E52)
+F (.\Source\App\mwork.c)(0x5BDA716A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\mwork.o" --omf_browse ".\Out\mwork.crf" --depend ".\Out\mwork.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (Source\App\mwork.h)(0x5BD02E8C)
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\work.h)(0x5BD83FD1)
+I (Source\App\gprs.h)(0x5BD02F75)
+I (Source\App\gsm.h)(0x5BDA51FF)
+I (Source\App\iic.h)(0x5BD02E52)
+I (.\Source\Comm\wxcw.h)(0x5BDBEEDA)
+I (.\Source\Comm\modbusm.h)(0x5BC45B44)
+F (.\Source\App\timer.c)(0x5BD02BB9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\timer.o" --omf_browse ".\Out\timer.crf" --depend ".\Out\timer.d")
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\timer.h)(0x5BCDC980)
+I (Source\App\Define.h)(0x5BDBEC06)
+F (.\Source\App\uart.c)(0x5BDA6E02)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\uart.o" --omf_browse ".\Out\uart.crf" --depend ".\Out\uart.d")
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\GPRS.h)(0x5BD02F75)
+I (Source\App\define.h)(0x5BDBEC06)
+I (Source\App\Gsm.h)(0x5BDA51FF)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\iic.h)(0x5BD02E52)
+I (.\Source\Comm\ModbusM.h)(0x5BC45B44)
+I (.\Source\Comm\configuration.h)(0x5BC69C37)
+I (.\Source\Comm\wxcw.h)(0x5BDBEEDA)
+I (Source\App\work.h)(0x5BD83FD1)
+F (.\Source\App\work.c)(0x5BD83FBF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\work.o" --omf_browse ".\Out\work.crf" --depend ".\Out\work.d")
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (Source\App\work.h)(0x5BD83FD1)
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\gprs.h)(0x5BD02F75)
+I (Source\App\gsm.h)(0x5BDA51FF)
+I (Source\App\iic.h)(0x5BD02E52)
+I (Source\App\comm.h)(0x5BDA78F1)
+F (.\Source\App\main.c)(0x5BD84027)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\main.o" --omf_browse ".\Out\main.crf" --depend ".\Out\main.d")
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\timer.h)(0x5BCDC980)
+I (Source\App\Define.h)(0x5BDBEC06)
+I (Source\App\mwork.h)(0x5BD02E8C)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\Work.h)(0x5BD83FD1)
+I (Source\App\Gsm.h)(0x5BDA51FF)
+I (Source\App\GPRS.h)(0x5BD02F75)
+I (Source\App\iic.h)(0x5BD02E52)
+I (.\Source\Comm\MODBUSM.h)(0x5BC45B44)
+I (.\Source\Comm\wxcw.h)(0x5BDBEEDA)
+F (.\Source\App\comm.c)(0x5BDC46EA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\comm.o" --omf_browse ".\Out\comm.crf" --depend ".\Out\comm.d")
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\GPRS.h)(0x5BD02F75)
+I (Source\App\define.h)(0x5BDBEC06)
+I (Source\App\Gsm.h)(0x5BDA51FF)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\iic.h)(0x5BD02E52)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\gsmcomm.h)(0x5A0D4F9A)
+I (Source\App\ucs2.h)(0x59B5F6FA)
+I (Source\App\work.h)(0x5BD83FD1)
+F (.\Source\App\ucs2.c)(0x5BDC4D7B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\ucs2.o" --omf_browse ".\Out\ucs2.crf" --depend ".\Out\ucs2.d")
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (Source\App\gprs.h)(0x5BD02F75)
+I (Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_V4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\App\gsm.h)(0x5BDA51FF)
+I (Source\App\comm.h)(0x5BDA78F1)
+I (Source\App\uart.h)(0x5BBB1037)
+I (Source\App\ucs2.h)(0x59B5F6FA)
+F (.\Source\App\gsmcomm.c)(0x5BAC819F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\gsmcomm.o" --omf_browse ".\Out\gsmcomm.crf" --depend ".\Out\gsmcomm.d")
+I (Source\App\gsmcomm.h)(0x5A0D4F9A)
+I (C:\Keil_V4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (.\Source\หตร๗.txt)(0x51908F98)()
+F (.\Source\Comm\wxcw.C)(0x5BDC527A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\wxcw.o" --omf_browse ".\Out\wxcw.crf" --depend ".\Out\wxcw.d")
+I (.\Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (.\Source\App\iic.h)(0x5BD02E52)
+I (.\Source\App\gsm.h)(0x5BDA51FF)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (.\Source\App\timer.h)(0x5BCDC980)
+I (.\Source\App\comm.h)(0x5BDA78F1)
+I (Source\Comm\modbusm.h)(0x5BC45B44)
+I (.\Source\App\work.h)(0x5BD83FD1)
+I (.\Source\App\gprs.h)(0x5BD02F75)
+I (.\Source\App\ucs2.h)(0x59B5F6FA)
+I (Source\Comm\wxcw.h)(0x5BDBEEDA)
+F (.\Source\Comm\ModbusM.C)(0x5BD02BC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\modbusm.o" --omf_browse ".\Out\modbusm.crf" --depend ".\Out\modbusm.d")
+I (.\Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\Comm\modbusm.h)(0x5BC45B44)
+I (Source\Comm\wxcw.h)(0x5BDBEEDA)
+I (.\Source\App\uart.h)(0x5BBB1037)
+I (Source\Comm\configuration.h)(0x5BC69C37)
+F (.\Source\Comm\Configuration.C)(0x5BD5443B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Source\Comm -I.\Source\App -I C:\Keil_V4\ARM\RV31\INC -I C:\Keil_V4\ARM\CMSIS\Include -I C:\Keil_V4\ARM\Inc\NXP\LPC17xx -o ".\Out\configuration.o" --omf_browse ".\Out\configuration.crf" --depend ".\Out\configuration.d")
+I (.\Source\App\define.h)(0x5BDBEC06)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x508759DA)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm3.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x50875B7E)
+I (C:\Keil_v4\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x508759DA)
+I (Source\Comm\Configuration.h)(0x5BC69C37)
+I (Source\Comm\MODBUSM.h)(0x5BC45B44)
+I (Source\Comm\wxcw.h)(0x5BDBEEDA)
+I (C:\Keil_v4\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (.\Source\App\uart.h)(0x5BBB1037)
